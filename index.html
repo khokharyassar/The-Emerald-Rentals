@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emerald Rentals</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/mediaQuery.css" />
+  <link rel="icon" type="image" href="/assets/img/white-favicon2.svg">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <meta name="description"
+    content="Make your relocation to London a smooth, stress-free and pleasant experience with Emerald Rentals. Premium homes for corporate professionals." />
+</head>
+
+<body>
+  <!-- new navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/img/blackLogo.svg" alt="Logo">
+      </a>
+    </div>
+    <div class="nav-toggle">&#9776;</div>
+    <ul class="nav-links">
+      <li><a href="#work">Our Work</a></li>
+      <li><a href="#premiumExperience">Why Emeralds Rentals?</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#question">FAQs</a></li>
+      <li class="enquire"><a href="#contact">ENQUIRE</a></li>
+    </ul>
+  </nav>
+
+  <!-- video and right image -->
+  <main>
+    <div class="main-container">
+      <div class="right">
+        <video autoplay muted loop>
+          <source src="assets/img/video1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="left">
+        <div class="text-content">
+          <h1>Premium Houses</h1>
+          <p>
+            Lease your property to us and Secure guaranteed rental income
+            for years to come.
+          </p>
+          <p>
+            Enjoy years of hassle-free rental income with the added benefit of
+            top-notch property maintenance from our expert team.
+          </p>
+          <a class="discover-btn" href="#contact">DISCOVER</a>
+        </div>
+      </div>
+    </div>
+    <!-- slider and right-col -->
+    <section class="mainSection column-reverce" id="work">
+      <div class="leftSection">
+        <div class="content">
+          <div class="image">
+            <img src="assets/img/icons/iconhome.svg" alt="">
+          </div>
+          <h2 class="homes hide">Views Properties in our portfolio</h2>
+          <p class="para hide">
+            We're all about making amazing shared homes in Cardiff. Our places
+            are nicely furnished, kept in top shape, and in great locations.
+          </p>
+          <div class="btn hide">
+            <a href="#contact">DISCOVER</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="rightSection">
+        <div class="slideshow-container" id="slider1">
+          <div class="mySlides fade">
+            <img src="assets/img/1.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="assets/img/4.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="assets/img/3.jpg" style="width: 100%" />
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 'slider1')">❮</a>
+          <a class="next" onclick="plusSlides(1, 'slider1')">❯</a>
+        </div>
+      </div>
+    </section>
+    <!-- images and benefits with us -->
+    <section class="section2" id="premiumExperience">
+      <div class="premium bg-2 rS">
+        <div>
+          <img src="assets/img/2.jpg" alt="image does not support in your browser" />
+          <img src="assets/img/6.jpg" alt="image does not support in your browser" />
+        </div>
+        <section class="section3">
+          <img src="assets/img/4.jpg" alt="" />
+        </section>
+      </div>
+
+      <div class="info bg-2 lS">
+        <div class="image">
+          <img src="assets/img/icons/iconStar.svg" alt="" style="margin-left: 30px;">
+        </div>
+        <h2 class="homes hide" style="margin-left: 30px;">Benefits with us</h2>
+        <div class="container">
+          <div class="box">
+            <div class="icenter">
+              <img src="assets/img/icons/hassle-free.png" />
+            </div>
+            <h3 class="hide">Guaranteed hassle-free rents:</h3>
+            <p class="hide">
+              Enjoy uninterrupted rent, whether occupied or not. Predictable,
+              secure income, always on time.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icenter">
+              <img src="assets/img/icons/NO MANAGEMENT FEES.png" />
+            </div>
+            <h3 class="hide">No Management fees:</h3>
+            <p class="hide">
+              Skip the middleman, save on fees, boost your earnings with
+              Emerald Rentals
+            </p>
+          </div>
+          <div class="box">
+            <div class="icenter">
+              <img src="assets/img/icons/LESS PEOPLE TO MANAGE.png" />
+            </div>
+            <h3 class="hide">Less people to manage:</h3>
+            <p class="hide">
+              Relax as we handle tenant management seamlessly for you.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icenter">
+              <img src="assets/img/icons/PASSIVE INCOME.png" />
+            </div>
+            <h3 class="hide">Passive income made easy</h3>
+            <p class="hide">
+              Turn your property investment into effortless income.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icenter">
+              <img src="assets/img/icons/INCREASED PROPERTY VALUE.png" />
+            </div>
+            <h3 class="hide">
+              Maintain peak property value with top-tier care:
+            </h3>
+            <p class="hide">
+              We maintain your property's excellence hassle-free. From minor
+              refurbishments to regular upkeep, your property's value is our
+              top priority.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icenter">
+              <img src="assets/img/icons/DIRECT COMMU..png" />
+            </div>
+            <h3 class="hide">Direct Communication Line:</h3>
+            <p class="hide">
+              Questions or updates? Contact our team for immediate,
+              personalized property assistance for your property.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- again slider and right col -->
+    <section class="mainSection column-reverce">
+      <div class="rightSection">
+        <div class="slideshow-container" id="slider2">
+          <div class="mySlides fade">
+            <img src="assets/img/5.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="assets/img/8.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="assets/img/9.jpg" style="width: 100%" />
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 'slider2')">❮</a>
+          <a class="next" onclick="plusSlides(1, 'slider2')">❯</a>
+        </div>
+      </div>
+      <div class="leftSection">
+        <div class="content">
+          <div class="image">
+            <img src="assets/img/icons/iconPeople.svg" alt="">
+          </div>
+          <h2 class="homes hide">Accommodating Premium People.</h2>
+          <p class="para hide">
+            We handpick young, hardworking professionals in Cardiff who excel and make their mark, ensuring they are a
+            great fit for the
+            house
+          </p>
+          <div class="btn hide">
+            <a href="#contact">DISCOVER</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews -->
+    <div class="reviews" id="reviews">
+      <h2 style="text-align: center" class="hide">✨See our Reviews ✨</h2>
+      <img src="assets/img/reviews.jpg" alt="" />
+    </div>
+    <!-- question / accordion -->
+    <section class="faq" id="faqs" data-aos="fade-up" data-aos-duration="1000">
+      <div class="question">
+        <h2 id="question" class="homes hide">Got any questions?</h2>
+        <div class="generic-accordion accordion-main">
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <button class="accordion lead-text">
+              Why ‘Emerald Rentals’?
+              <svg width="15" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.0534 0.161776L5.50053 4.67191L0.947656 0.161233C0.73059 -0.0537443 0.379455 -0.0537443 0.162389 0.161233C-0.0541296 0.37621 -0.0541296 0.724508 0.162389 0.939485L5.10764 5.83877C5.32416 6.05374 5.67584 6.05374 5.89236 5.83877L10.8376 0.93953C11.0541 0.724553 11.0541 0.375713 10.8376 0.160735C10.6216 -0.0532013 10.2699 -0.0532014 10.0534 0.161776Z"
+                  fill="black" />
+              </svg>
+            </button>
+            <div class="panel">
+              <ul>
+                <li>Guaranteed Hassle-Free Rent</li>
+                <li>No Management Fees, so you save money</li>
+                <li>No late payments</li>
+                <li>
+                  With our expertise in serviced accommodations and HMOs, we
+                  keep your property in top shape
+                </li>
+                <li>Less people to manage</li>
+                <li>Passive income</li>
+                <li>We will take care of small refurbishments</li>
+                <li>Direct Communication Line</li>
+              </ul>
+              <br />
+              <p>
+                "Have a question or need an update? Our dedicated team is just
+                a call away, providing you personalized service and updates on
+                your property whenever needed."
+              </p>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <button class="accordion lead-text">
+              About Us ?
+              <svg width="15" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.0534 0.161776L5.50053 4.67191L0.947656 0.161233C0.73059 -0.0537443 0.379455 -0.0537443 0.162389 0.161233C-0.0541296 0.37621 -0.0541296 0.724508 0.162389 0.939485L5.10764 5.83877C5.32416 6.05374 5.67584 6.05374 5.89236 5.83877L10.8376 0.93953C11.0541 0.724553 11.0541 0.375713 10.8376 0.160735C10.6216 -0.0532013 10.2699 -0.0532014 10.0534 0.161776Z"
+                  fill="black" />
+              </svg>
+            </button>
+            <div class="panel">
+              <p>
+                Emerald Rentals is distinguished by our seasoned management of
+                serviced accommodations and Houses in Multiple Occupation
+                (HMOs). Our team, enriched with Cardiff University graduates,
+                delivers expertise and dedication, making us a standout in the
+                rental industry.
+              </p>
+              <br />
+              <p>
+                The escalating costs of living have made securing affordable
+                rental housing increasingly challenging. Emerald Rentals meets
+                this challenge head-on, providing effective solutions that
+                support both property owners and tenants. We ensure that
+                homeowners receive dependable rental income, while tenants
+                enjoy well-maintained and economically feasible living spaces.
+              </p>
+              <br />
+              <p>
+                At Emerald Rentals, we take pride in our role as a connector
+                between property owners and renters, cultivating a vibrant
+                community where everyone benefits.
+              </p>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <button class="accordion lead-text">
+              What kind of people do we accommodate in our homes?
+              <svg width="15" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.0534 0.161776L5.50053 4.67191L0.947656 0.161233C0.73059 -0.0537443 0.379455 -0.0537443 0.162389 0.161233C-0.0541296 0.37621 -0.0541296 0.724508 0.162389 0.939485L5.10764 5.83877C5.32416 6.05374 5.67584 6.05374 5.89236 5.83877L10.8376 0.93953C11.0541 0.724553 11.0541 0.375713 10.8376 0.160735C10.6216 -0.0532013 10.2699 -0.0532014 10.0534 0.161776Z"
+                  fill="black" />
+              </svg>
+            </button>
+            <div class="panel">
+              <p>
+                Our housemates are youthful, energetic professionals employed
+                by top-tier companies in Cardiff. We employ a strict selection
+                process, seeking courteous and professional individuals with
+                excellent references from past landlords.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- enquire, form -->
+    <section class="call-to-action" id="enquire">
+      <div class="form">
+        <h2 class="remove-on-sent homes hide" data-aos="fade-up" data-aos-duration="1000" id="contact">
+          Ready for your next step?
+        </h2>
+        <p class="desc remove-on-sent" data-aos="fade-up" data-aos-duration="1000">
+          Get in touch with our team and find out if Emerald Rentals can
+          help you.
+        </p>
+
+        <div class="btn-holder hide" data-aos="fade-up" data-aos-duration="1000">
+          <button type="button" class="btn generic-btn" id="form-reveal-btn">
+            GET IN TOUCH
+          </button>
+        </div>
+
+        <div class="cta-form-holder" id="cta-form-holder">
+          <div role="form" class="wpcf7" id="wpcf7-f5-p7-o1" lang="en-US" dir="ltr">
+            <form action="/#wpcf7-f5-p7-o1" method="post" class="wpcf7-form init" novalidate="novalidate"
+              data-status="init" id="contact-form">
+              <div class="contact-page-form">
+                <div class="form-group">
+                  <label class="required">First name</label>
+                  <input type="text" name="first-name" id="first-name"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false" />
+                </div>
+                <div class="form-group">
+                  <label class="required">Last name</label>
+                  <input type="text" name="last-name" id="last-name"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false" />
+                </div>
+                <div class="form-group">
+                  <label class="required">Email address</label>
+                  <input type="email" name="your-email" id="email"
+                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                    aria-required="true" aria-invalid="false" />
+                </div>
+                <div class="form-group">
+                  <label class="required">Phone</label>
+                  <input type="tel" name="phone" id="phone"
+                    class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                    aria-required="true" aria-invalid="false" max="15" />
+                </div>
+                <!-- <div class="form-group">
+                  <label>Where did you hear about us?</label>
+                  <select name="hear-about" id="hear-about"
+                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false">
+                    <option value="Social Media">Social Media</option>
+                    <option value="Google / Search Engine">
+                      Google / Search Engine
+                    </option>
+                    <option value="Referral">Referral</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div> -->
+                <div class="form-group">
+                  <label>Subject</label>
+                  <input type="text" name="your-subject" id="subject"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false" required />
+                </div>
+                <div class="form-group">
+                  <label>Message</label>
+                  <textarea name="your-message" id="message"
+                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false"></textarea>
+                </div>
+                <div class="form-group checkbox-group">
+                  <input type="checkbox" name="check-terms" id="check-terms" />
+                  <label for="check-terms">
+                    I agree to Emerald Rentals handling of
+                    <a href="#privacy-policy" style="color: white">personal data.</a>
+                  </label>
+                </div>
+                <div class="btn-container">
+                  <input type="submit" value="Submit"
+                    class="wpcf7-form-control has-spinner wpcf7-submit btn generic-btn" id="submit-btn" />
+                </div>
+              </div>
+              <div id="contact-page-success-container">
+                <h3>Submitted</h3>
+                <p>
+                  Thank you for getting in touch. A member from our friendly team will get back to you shortly.
+                </p>
+                <p class="ending">
+                  All the best,<br />
+                  <b>The Emerald Rentals Team</b>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section contact-info">
+          <h3 class="hide">Contact Us</h3>
+          <p class="hide">
+            <strong>Office:</strong> 105 Clive Street CF117HN
+          </p>
+          <p class="hide"><strong>Phone:</strong> +44-7833820198</p>
+          <p class="hide">
+            <strong>WhatsApp Chat:</strong>
+            <a href="https://wa.me/447833820198?text=I'm%20looking%20for%20a%20New%20Home/Rent" target="_blank"> +44
+              7833820198 </a>
+          </p>
+          <p class="hide">
+            <strong>Email:</strong>
+            <a href="mailto:inquires@emeraldrentals.co.uk">
+              inquires@emeraldrentals.co.uk</a>
+          </p>
+        </div>
+        <div class="footer-section useful-links">
+          <h3 class="hide">Useful Links</h3>
+          <ul>
+            <li><a href="#work" class="hide"> Our Homes</a></li>
+            <li>
+              <a href="#premiumExperience" class="hide">Why Emeralds Rentals??</a>
+            </li>
+            <li><a href="#reviews " class="hide">Reviews</a></li>
+            <li><a href="#faqs" class="hide">FAQs</a></li>
+            <li><a href="#enquire" class="hide">Enquire</a></li>
+          </ul>
+        </div>
+        <div class="footer-section legal">
+          <h3 class="hide">Legal</h3>
+          <!-- terms, condition and  privacy policy-->
+          <ul>
+            <li>
+              <a href="#terms-links" id="terms-link" class="hide">Terms and Conditions</a>
+            </li>
+            <li>
+              <a href="#privacy-link" id="privacy-link" class="hide">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section logos">
+          <img src="assets/img/DPS-logo.svg" alt="DPS" />
+          <img src="assets/img/ICO_Logo_BlueOnWhite.png" alt="ICO" />
+          <img src="assets/img/PRS-Logo.svg" alt="PRS" />
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="assets/img/WhiteLogo.svg" alt="Your Logo" width="150" />
+          </a>
+        </div>
+        <p class="hide">
+          &copy; Emerald Rentals Ltd is a company registered in England &
+          Wales (Company Number 15722357). <br />
+        </p>
+      </div>
+      <p style="color: #444" class="hide">
+        Site built by <a href="#" style="color: aliceblue; text-decoration: none;"> YN Tech </a>
+      </p>
+    </footer>
+
+    <!-- Modal for Terms and Conditions -->
+    <div id="terms-modal" class="modal">
+
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Terms & Conditions</h2>
+        <p>
+          These organizations can link to our homepage, other website pages,
+          or publications provided the link is: (a) honest; (b) not falsely
+          implying sponsorship, endorsement, or approval of the linking
+          entity and its offerings; and (c) suitable for the linking site’s
+          context.
+        </p>
+        <p>We may review and approve link requests from:</p>
+        <ul>
+          <li>Renowned consumer and business information sources;</li>
+          <li>Dot.com community sites;</li>
+          <li>Charity groups;</li>
+          <li>Online directory distributors;</li>
+          <li>Internet portals;</li>
+          <li>Professional firms in law, consulting, and accounting;</li>
+          <li>Educational and trade associations.</li>
+        </ul>
+        <p>
+          Link approval will depend on whether: (a) the link doesn’t
+          negatively reflect on us or our accredited businesses; (b) the
+          organization has no adverse records with us; (c) the visibility of
+          the hyperlink sufficiently benefits us, outweighing the absence of
+          Emerald Rentals Ltd; and (d) the link serves as a general
+          information resource.
+        </p>
+        <p>
+          Eligible organizations must email Emerald Rentals Ltd to link to
+          our site, including details like their name, contact info, their
+          site URL, and intended link URLs from their site to ours. Response
+          time is 2-3 weeks.
+        </p>
+        <p>Approved methods for linking:</p>
+        <ul>
+          <li>Using our corporate name;</li>
+          <li>Using the URL being linked to;</li>
+          <li>
+            Using any site description that fits logically within the
+            linking site's content and format.
+          </li>
+        </ul>
+        <p>
+          Linking using Emerald Rentals Ltd’s logo or other artwork is
+          prohibited unless a trademark license is obtained.
+        </p>
+        <h4>IFrames:</h4>
+        <p>
+          Creating frames around our web pages without prior authorization
+          is forbidden, as it changes the website's visual presentation.
+        </p>
+        <h4>Content Liability:</h4>
+        <p>
+          We are not responsible for any content that appears on your
+          website. You are expected to protect and defend us from any claims
+          arising on your website. Links should not be offensive or violate
+          third-party rights.
+        </p>
+        <h4>Privacy and Link Removal:</h4>
+        <p>
+          Please review our Privacy Policy. We reserve the right to demand
+          the removal of any links to our site and may modify our linking
+          terms at any time. Contact us anytime to discuss removing
+          offensive links, although we are not obliged to act on or directly
+          respond to such requests.
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal for Privacy Policy -->
+    <div id="privacy-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Privacy Policy</h2>
+        <p>
+          Emerald Rentals Ltd ("us", "we", or "our") operates the specified
+          website (the "Service"). This document outlines our policies
+          concerning the gathering, use, and sharing of personal data when you
+          utilize our Service, along with your available choices. By using the
+          Service, you consent to the collection and use of information per
+          this policy. Terms used in this Privacy Policy reflect those defined
+          in our Terms and Conditions, available from [Terms and Conditions
+          URL].
+        </p>
+        <h4>Information Collection and Use</h4>
+        <p>
+          We collect various types of information for numerous purposes to
+          enhance the Service provided to you.
+        </p>
+        <h3>Types of Data Collected:</h3>
+        <h4>Personal Data</h4>
+        <p>
+          While using our Service, we may ask you to supply us with specific
+          personally identifiable information that can be used to contact or
+          identify you ("Personal Data"). This information may include, but is
+          not limited to:
+        </p>
+        <ul>
+          <li>Email Address</li>
+          <li>First Name and Last Name</li>
+          <li>Phone Number</li>
+          <li>IP Address</li>
+          <li>Cookies and Usage Data</li>
+        </ul>
+        <h4>Usage Data</h4>
+        <p>
+          Information on how the Service is accessed and used ("Usage Data")
+          may also be collected. This data may include details such as your
+          computer's Internet Protocol address (IP address), browser type,
+          browser version, our Service pages that you visit, the time and date
+          of your visit, the time spent on those pages, unique device
+          identifiers, and other diagnostic data.
+        </p>
+        <h4>Tracking & Cookies Data</h4>
+        <p>
+          We employ cookies and similar tracking technologies to monitor
+          activity on our Service and store certain information. Cookies are
+          files with a small amount of data which may include an anonymous
+          unique identifier. Sent from a website to your browser, cookies are
+          stored on your device. Other tracking technologies like beacons,
+          tags, and scripts are also used to gather and track information and
+          enhance and analyze our Service. You can set your browser to refuse
+          all cookies or indicate when a cookie is being sent. However, if you
+          do not accept cookies, you may not be able to use some portions of
+          our Service.
+        </p>
+        <h5>Examples of Cookies we use:</h5>
+        <ul>
+          <li>Session Cookies: We use these to operate our Service.</li>
+          <li>
+            Preference Cookies: We use these to remember your preferences and
+            various settings.
+          </li>
+          <li>Security Cookies: These are used for security purposes.</li>
+        </ul>
+        <h4>Transfer of Data</h4>
+        <p>
+          Your information, including Personal Data, may be transferred to —
+          and maintained on — computers located outside of your state,
+          province, or country where data protection laws may differ from
+          those in your jurisdiction. If you are not located in the United
+          Kingdom but choose to provide information to us, the data, including
+          Personal Data, is transferred to the United Kingdom and processed
+          there. Your consent to this Privacy Policy followed by your
+          submission of such information represents your agreement to that
+          transfer. Emerald Rentals Ltd will take all the necessary
+          precautions to ensure that your data is treated securely and in
+          accordance with this Privacy Policy, and no transfer of your
+          Personal Data will occur to an organization or a country unless
+          adequate controls are in place, including the security of your data
+          and other personal information.
+        </p>
+        <h3>Disclosure Of Data</h3>
+        <h4>Legal Requirements</h4>
+        <p>
+          Emerald Rentals Ltd may disclose your Personal Data in the good
+          faith belief that such action is necessary to:
+        </p>
+        <ul>
+          <li>
+            Protect and defend the rights or property of Emerald Rentals Ltd.
+          </li>
+          <li>
+            Ensure the personal safety of users of the Service or the public.
+          </li>
+          <li>Protect against legal liability.</li>
+        </ul>
+        <p>
+          The security of your data is paramount to us, but no method of
+          transmission over the Internet, or method of electronic storage, is
+          100% secure. While we strive to use commercially acceptable means to
+          protect your Personal Data, we cannot guarantee its absolute
+          security.
+        </p>
+        <h4>Service Providers</h4>
+        <p>
+          We may employ third-party companies and individuals to facilitate
+          our Service ("Service Providers"), to provide the Service on our
+          behalf, to perform Service-related services, or to assist us in
+          analyzing how our Service is used. These third parties have access
+          to your Personal Data only to perform these tasks on our behalf and
+          are obligated not to disclose or use it for any other purpose.
+        </p>
+        <h4>Analytics</h4>
+        <p>
+          We may use third-party Service Providers to monitor and analyze the
+          use of our Service.
+        </p>
+        <h4>Google Analytics</h4>
+        <p>
+          Google Analytics is a web analytics service provided by Google that
+          tracks and reports website traffic. Google uses the data collected
+          to track and monitor the use of our Service. This data is shared
+          with other Google services. Google may use the collected data to
+          contextualize and personalize the ads of its own advertising
+          network. You can opt-out of making your activity on the Service
+          available to Google Analytics by installing the Google Analytics
+          opt-out browser add-on. For more information on the privacy
+          practices of Google, please visit the Google Privacy & Terms web
+          page: Google Privacy & Terms
+        </p>
+        <h4>Links To Other Sites</h4>
+        <p>
+          Our Service may contain links to other sites that are not operated
+          by us. If you click on a third-party link, you will be directed to
+          that third party’s site. We strongly advise you to review the
+          Privacy Policy of every site you visit. We have no control over and
+          assume no responsibility for the content, privacy policies, or
+          practices of any third- party sites
+        </p>
+      </div>
+    </div>
+
+    <!-- Scrollable Modal -->
+    <!-- <div id="modal-box" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-body" id="modal-body"></div>
+            </div>
+        </div> -->
+  </main>
+
+  <script src="assets/script.js"></script>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+    import {
+      getDatabase,
+      ref,
+      push,
+      set,
+    } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyB3dv5RM9S77Dq3xYQqxz8-fZG2Vzmc5eE",
+      authDomain: "emerald-rentals.firebaseapp.com",
+      projectId: "emerald-rentals",
+      storageBucket: "emerald-rentals.appspot.com",
+      messagingSenderId: "427405298395",
+      appId: "1:427405298395:web:d7832031e29e6d3d611afe",
+      databaseURL: "https://emerald-rentals-default-rtdb.firebaseio.com",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+
+    // Function to save message to Firebase
+    function saveMessage(
+      firstname,
+      lastname,
+      email,
+      phone,
+      subject,
+      message
+    ) {
+      const messagesRef = ref(database, "USER DATA");
+      const newMessageRef = push(messagesRef);
+      set(newMessageRef, {
+        firstname: firstname,
+        lastname: lastname,
+        email: email,
+        phone: phone,
+        subject: subject,
+        message: message,
+      });
+    }
+
+    // Add event listener to form
+    document
+      .getElementById("contact-form")
+      .addEventListener("submit", (e) => {
+        e.preventDefault();
+        const firstname = document.getElementById("first-name").value;
+        const lastname = document.getElementById("last-name").value;
+        const email = document.getElementById("email").value;
+        const phone = document.getElementById("phone").value;
+        const subject = document.getElementById("subject").value;
+        const message = document.getElementById("message").value;
+        saveMessage(firstname, lastname, email, phone, subject, message);
+        document.getElementById("contact-form").reset();
+      });
+
+  </script>
+</body>
+
+</html>
